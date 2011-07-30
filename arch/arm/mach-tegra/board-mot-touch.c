@@ -64,7 +64,7 @@ struct qtouch_ts_platform_data ts_platform_olympus_p_1_37 =
 {
 /*	.flags		= (QTOUCH_SWAP_XY | */
 /*			   QTOUCH_EEPROM_CHECKSUM), */
-	.flags		= (QTOUCH_SWAP_XY | 
+	.flags		= (QTOUCH_SWAP_XY | QTOUCH_FLIP_Y |
 					QTOUCH_USE_MULTITOUCH |
 					QTOUCH_CFG_BACKUPNV),
 	.irqflags		= (IRQF_TRIGGER_FALLING | IRQF_TRIGGER_LOW),
@@ -352,7 +352,7 @@ struct qtouch_ts_platform_data ts_platform_olympus_p_1_43 =
 {
 /*	.flags		= (QTOUCH_SWAP_XY | */
 /*			   QTOUCH_EEPROM_CHECKSUM), */
-	.flags		= (QTOUCH_SWAP_XY | 
+	.flags		= (QTOUCH_SWAP_XY | QTOUCH_FLIP_Y |
 					QTOUCH_USE_MULTITOUCH |
 					QTOUCH_CFG_BACKUPNV),
 	.irqflags		= (IRQF_TRIGGER_FALLING | IRQF_TRIGGER_LOW),
@@ -640,7 +640,7 @@ struct qtouch_ts_platform_data ts_platform_olympus_m_1 =
 {
 /*	.flags		= (QTOUCH_SWAP_XY | */
 /*			   QTOUCH_EEPROM_CHECKSUM), */
-	.flags		= (QTOUCH_SWAP_XY | 
+	.flags		= (QTOUCH_SWAP_XY | QTOUCH_FLIP_Y |
 					QTOUCH_USE_MULTITOUCH |
 					QTOUCH_CFG_BACKUPNV),
 	.irqflags		= (IRQF_TRIGGER_FALLING | IRQF_TRIGGER_LOW),
@@ -926,7 +926,7 @@ struct qtouch_ts_platform_data ts_platform_etna_p_1_37 =
 {
 /*	.flags		= (QTOUCH_SWAP_XY | */
 /*			   QTOUCH_EEPROM_CHECKSUM), */
-	.flags		= (QTOUCH_SWAP_XY | 
+	.flags		= (QTOUCH_SWAP_XY | QTOUCH_FLIP_Y |
 					QTOUCH_USE_MULTITOUCH |
 					QTOUCH_CFG_BACKUPNV),
 	.irqflags		= (IRQF_TRIGGER_FALLING | IRQF_TRIGGER_LOW),
@@ -1214,7 +1214,7 @@ struct qtouch_ts_platform_data ts_platform_etna_p_1_43 =
 {
 /*	.flags		= (QTOUCH_SWAP_XY | */
 /*			   QTOUCH_EEPROM_CHECKSUM), */
-	.flags		= (QTOUCH_SWAP_XY | 
+	.flags		= (QTOUCH_SWAP_XY | QTOUCH_FLIP_Y |
 					QTOUCH_USE_MULTITOUCH |
 					QTOUCH_CFG_BACKUPNV),
 	.irqflags		= (IRQF_TRIGGER_FALLING | IRQF_TRIGGER_LOW),
@@ -1502,7 +1502,7 @@ struct qtouch_ts_platform_data ts_platform_etna_m_1 =
 {
 /*	.flags		= (QTOUCH_SWAP_XY | */
 /*			   QTOUCH_EEPROM_CHECKSUM), */
-	.flags		= (QTOUCH_SWAP_XY | 
+	.flags		= (QTOUCH_SWAP_XY | QTOUCH_FLIP_Y |
 					QTOUCH_USE_MULTITOUCH |
 					QTOUCH_CFG_BACKUPNV),
 	.irqflags		= (IRQF_TRIGGER_FALLING | IRQF_TRIGGER_LOW),
@@ -1789,7 +1789,7 @@ struct qtouch_ts_platform_data ts_platform_etna_m_1 =
 struct qtouch_ts_platform_data ts_platform_daytona_m_1 = {
 /*	.flags		= (QTOUCH_SWAP_XY | */
 /*			   QTOUCH_EEPROM_CHECKSUM), */
-	.flags		= (QTOUCH_SWAP_XY |
+	.flags		= (QTOUCH_SWAP_XY | QTOUCH_FLIP_Y |
 					QTOUCH_USE_MULTITOUCH |
 					QTOUCH_CFG_BACKUPNV),
 	.irqflags		= (IRQF_TRIGGER_FALLING | IRQF_TRIGGER_LOW),
